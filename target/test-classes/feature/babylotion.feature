@@ -13,15 +13,15 @@ And User clicks on Brand
 
 
 
-#Scenario Outline: User validate the protect 
-#And User clicks on sorted brand "<sort>"
+Scenario Outline: User validate the protect 
+And User clicks on sorted brand "<sort>"
 #And User clicks on Add button 
 #And User clicks on View Cart
 
-#Examples:
-#|sort							|
-#|johnson & johnson|
-#|mamaearth				|
-#|aveeno						|
+Examples:
+|sort							|
+|johnson & johnson|
+|mamaearth				|
+|aveeno						|
 
 

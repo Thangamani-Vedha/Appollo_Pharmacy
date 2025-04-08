@@ -11,9 +11,9 @@ import cucumber.api.junit.Cucumber;
 				glue = {"in.Apollo"},
 				monochrome = true,
 				dryRun = false,
-				plugin = {"html:target","json:target/report.json"},
-				strict = true
-						)
+				strict = true,
+				plugin = {"html:target/cucumber/report.html","json:target/cucumber/report.json"})
+						
 public class TestRunner {
 
 }
